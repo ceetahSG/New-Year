@@ -409,10 +409,12 @@ button {
     border: none;
     color: #070211;
 }
+
 .subscribe-form input::placeholder {
     color: #070211;
     opacity: 0.3;
 }
+
 .subscribe-form button {
     position: absolute;
     right: 650px;
@@ -424,3 +426,47 @@ button {
     font-weight: 300;
     cursor: pointer;
 }
+
+footer {
+    min-width: 1320px;
+    min-height: 609px;
+    border-radius: 15px;
+    background-color: #070211;
+    color: white;
+    padding: 100px 0px;
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-content {
+    max-width: 1185px;
+    margin: 0px auto;
+
+}
+
+.footer-content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.footer-content-middle {
+    margin: 100px 0px;
+    padding: 40px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content-bottom {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}              
