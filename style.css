@@ -175,7 +175,7 @@ button {
 }
 
 .coming-soon {
-    border: solid 1px black;
+
     min-width: 1320px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -208,39 +208,113 @@ button {
     color: #070211;
     opacity: 0.8;
 }
+
 .middle-div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.middle-div img{
-    border: solid 15px red;
+
+.middle-div img {
+   
     border-radius: 100%;
     padding: 25px;
     max-width: 100%;
 }
-.right-div{
+
+.right-div {
     margin-left: 100px;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    
+
 }
-.right-div h1{
+
+.right-div h1 {
     font-family: "inter", sans-serif;
     font-size: 48px;
     font-weight: 800;
     color: red;
     margin-bottom: 20px;
 }
-.right-div p{
+
+.right-div p {
     font-family: "inter", sans-serif;
     font-size: 20px;
     font-weight: 300;
     color: #070211;
     opacity: 0.8;
-    
+
 }
-.right-div img{
+
+.right-div img {
     max-width: 140px;
+}
+
+.sale {
+    
+    min-width: 1320px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sale-content {
+    
+    margin: 0 auto;
+    max-width: 1068px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale-content h2 {
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.sale-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-content h1 span {
+    color: red;
+}
+
+.sale-content p {
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #070211;
+    opacity: 0.6;
+}
+
+.sale-image {
+    
+    min-height: 600px;
+    position: relative;
+}
+.sale-rectangle {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+
+}
+.sale-image .box-image {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    height: 500px;
+}
+
+.sale-image .discount {
+    position: absolute;
+    bottom: 250px;
+    right: 50px;
+
 }
