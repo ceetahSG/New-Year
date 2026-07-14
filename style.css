@@ -417,7 +417,7 @@ button {
 
 .subscribe-form button {
     position: absolute;
-    right: 650px;
+    right: 1150px;
     padding: 15px 40px;
     border-radius: 0 999px 999px 0;
     border: none;
@@ -428,7 +428,7 @@ button {
 }
 
 footer {
-    min-width: 1320px;
+    min-width: 1600px;
     min-height: 609px;
     border-radius: 15px;
     background-color: #070211;
@@ -456,7 +456,7 @@ footer {
 
 .footer-content-middle {
     margin: 100px 0px;
-    padding: 40px 0px;
+    padding: 50px 0px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
